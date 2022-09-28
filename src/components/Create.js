@@ -15,6 +15,7 @@ const Create = () => {
 
 
     const handleSubmit = (event) => {
+        console.log("event",event);
         event.preventDefault();
 
         const ids = uuid()
